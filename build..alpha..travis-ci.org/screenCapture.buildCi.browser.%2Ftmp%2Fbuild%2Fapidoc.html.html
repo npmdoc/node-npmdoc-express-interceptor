@@ -63,15 +63,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.express-interceptor.toString">
-            function <span class="apidocSignatureSpan">express-interceptor.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -180,37 +171,6 @@
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.express-interceptor.toString" id="apidoc.element.express-interceptor.toString">
-        function <span class="apidocSignatureSpan">express-interceptor.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-    res.end = function(chunk, encoding, cb) {
-      debug('end called');
-      var args = Array.prototype.slice.call(arguments);
-
-      if (intercept(chunk,encoding)) {
-        isIntercepting = false;
-        var oldBody = Buffer.concat(chunks).<span class="apidocCodeKeywordSpan">toString</span>('utf-8');
-
-        if (methods.intercept) {
-if (typeof methods.intercept !== 'function') {
-  throw new Error('`send` must be a function with the body to be sent as the only param');
-}
-
-res.removeHeader('Content-Length');
-...</pre></li>
     </ul>
 
 
