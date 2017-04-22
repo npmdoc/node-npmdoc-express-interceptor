@@ -1,4 +1,7 @@
-# api documentation for  [express-interceptor (v1.2.0)](https://github.com/axiomzen/express-interceptor#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-express-interceptor.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-express-interceptor) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-express-interceptor.svg)](https://travis-ci.org/npmdoc/node-npmdoc-express-interceptor)
+# npmdoc-express-interceptor
+
+#### api documentation for  [express-interceptor (v1.2.0)](https://github.com/axiomzen/express-interceptor#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-express-interceptor.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-express-interceptor) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-express-interceptor.svg)](https://travis-ci.org/npmdoc/node-npmdoc-express-interceptor)
+
 #### A tiny interceptor for Express responses
 
 [![NPM](https://nodei.co/npm/express-interceptor.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/express-interceptor)
@@ -86,7 +89,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
